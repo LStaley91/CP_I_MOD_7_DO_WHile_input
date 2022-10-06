@@ -36,7 +36,7 @@ public class Main
                 }
                 else
                 {
-                    System.out.println("\nYou said your fav num is" + favNum + "But that i sout of the range");
+                    System.out.println("\nYou said your fav num is" + favNum + "But that is out of the range");
                 }
             }
             else  // dont have an int
@@ -118,7 +118,7 @@ public class Main
 
         System.out.println("You have a total of " + numGrades + " grades.");
         System.out.println("You have a total of " + totalGrades);
-        System.out.println("You have an average grade of %8.2f\n",averageGrade);
+        System.out.println("You have an average grade of %8.2f"+ averageGrade);
 
         //For Loop
         for (int x=0; x<10; x++)
@@ -126,5 +126,39 @@ public class Main
             System.out.println("loop "+ x);
             System.out.println("Hello "+ x);
         }
+        for(int x=0; x<=10; x++)
+        {
+            System.out.println(x);
+        }
+        for(int l=0; l<3; l++)
+        {
+            System.out.println();
+        }
+        for(int x=10; x>=0; x--)
+        {
+            System.out.println(x);
+        }
+        int reps = in.nextInt();
+        for (int x=1; x<= reps; x++)
+        {
+            System.out.println("Re: "+ x);
+        }
+/*
+        int rndA = rnd.nextInt(6)+1;
+        int rndB = rnd.nextInt(6)+1;
+
+        while (rndA = rnd.nextInt(6)+1
+        {
+             rndA = rnd.nextInt(6)+1;
+             rndB = rnd.nextInt(6)+1;
+            System.out.printf("\n%3d%3d", rndA, rndB);
+        }
+        System.out.println();
+
+        for(int r= 1; r<=5; r++)
+        {
+
+        }
+*/
     }
 }
